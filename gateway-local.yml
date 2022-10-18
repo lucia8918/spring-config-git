@@ -15,7 +15,7 @@ spring:
     gateway:
       routes:
         - id: event-service
-          uri: http://localhost:6097
+          uri: https://dev-coupon-event-api.withinapi.com
           predicates:
             - Path=/event/**
           filters:
